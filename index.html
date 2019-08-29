@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <meta name="format-detection" content="telephone=no">
+        <title>Grab</title>
+
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <!-- ICON -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <!-- OGP -->
+        <meta property="og:locale" content="">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:description" content="">
+        <!-- CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/bootstrap.min.v3.3.6.css" rel="stylesheet">
+        <link rel='stylesheet' href='css/press-stylesheet.css' media='' />
+        <link rel='stylesheet' href='fonts/Sanomat/1512-PNDUFW-11oct17.css' media='' />
+        <link rel='stylesheet' href='css/default.min.css' media='all' />
+        <link href="css/common.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="top">
+            <div class="container">
+                <nav class="navbar navbar-default hidden-xs" role="navigation">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul id="main-menu" class="nav navbar-nav">
+                            <li class="">
+                                <a class="navbar-brand text-hide bg-size-cover grab-logo" href="#">Grab Singapore</a>
+                            </li>
+                            </ul>
+                            <ul id="secondary-menu" class="nav navbar-nav">
+                                <li class="dropdown partner">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span>Trở thành Đối tác của Grab</span>
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </a>
+                                    <ul class="dropdown-menu multi-column columns-3">
+                                        <li data="1" ><a href="#" class="icon-taxi-drive-white" style="">Tư Vấn Đăng Ký</a></li>
+                                        <li data="1" ><a href="#" class="icon-taxi-drive-white" style="">Đăng ký làm tài xế Grab</a></li>
+                                        <li data="1" ><a href="#" class="icon-taxi-drive-white" style="">Đối tác GrabBike | GrabExpress</a></li>
+                                        <li data="1" ><a href="3" class="icon-taxi-drive-white" style="">Đăng ký làm đối tác Grab</a></li>
+                                    </ul>
+                                </li>
+                                <li class="help">
+                                    <a href="https://help.grab.com/passenger/en-vn/" >Trung tâm Hỗ trợ</a>
+                                </li>
+                            </ul>
+                            <!--/.navbar-collapse-->
+                        </ul>
+                    </div>
+                </nav>
+                <nav id="mobile-menu-navigation" class="visible-xs" role="navigation">
+                    <ul id="mobile-menu" class="cd-navigation list-unstyled">
+                        <li class="menu-item-drive dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-bars bars" aria-hidden="true"></i>
+                            <i class="fa fa-times times" aria-hidden="true" style="display: none;"></i>
+                            </a>
+                            <ul class="dropdown-menu main-dropdown">
+                                <li class="menu-item-drive level-one-child dark-menu">
+                                    <a href="https://hub.grab.com/" rel="nofollow" class="sub-menu-toggle">Đăng Nhập</a>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child dark-menu">
+                                    <a href="#" class="sub-menu-toggle">Trở thành Đối tác của Grab <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/driver/transport/signup-walkthrough/" class="icon-taxi-drive-white" style="">Tư Vấn Đăng Ký</a></li>
+                                        <li><a href="/vn/driver/transport/" class="icon-taxi-drive-white" style="">Đăng ký làm tài xế Grab</a></li>
+                                        <li><a href="/vn/driver/bike/" class="icon-taxi-drive-white" style="">Đối tác GrabBike | GrabExpress</a></li>
+                                        <li><a href="/vn/merchant/food/" class="icon-taxi-drive-white" style="">Đăng ký làm đối tác Grab</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-drive level-one-child dark-menu trungtâmhỗtrợ">
+                                    <a href="https://help.grab.com/passenger/en-vn/" class="sub-menu-toggle">Trung tâm Hỗ trợ</a>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child dark-menu lang-select">
+                                    <a href="#" class="sub-menu-toggle"><span class="globe"></span> Tiếng Việt <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="https://www.grab.com/vn/en//" class="icon-taxi-drive-white" style="">English</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child">
+                                    <a href="#" class="sub-menu-toggle">Về Grab<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/brand-story/">Câu chuyện của Grab</a></li>
+                                        <li><a href="/vn/locations/">Địa chỉ</a></li>
+                                        <li><a href="/vn/safety/">Tin tưởng & An toàn</a></li>
+                                        <li><a href="/vn/press/">Tin tức</a></li>
+                                        <li><a href="https://grab.careers/">Làm việc tại Grab</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child">
+                                    <a href="#" class="sub-menu-toggle">Người dùng<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/blog/">Có gì mới?</a></li>
+                                        <li><a href="/vn/transport/">Di chuyển</a></li>
+                                        <li><a href="/vn/pay/">Ví điện tử Moca trên ứng dụng Grab</a></li>
+                                        <li><a href="/vn/food/">GrabFood</a></li>
+                                        <li><a href="/vn/express/">GrabExpress</a></li>
+                                        <li><a href="/vn/rewards/">GrabRewards</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child">
+                                    <a href="#" class="sub-menu-toggle">Đối tác tài xế<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/blog/driver/">Thông tin mới nhất</a></li>
+                                        <li><a href="/vn/driver/transport/">Di chuyển</a></li>
+                                        <li><a href="/vn/driver/food/">GrabFood</a></li>
+                                        <li><a href="/vn/driver/transport/bike/">GrabExpress</a></li>
+                                        <li><a href="/vn/driver/centre/">Trung tâm tài xế</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child">
+                                    <a href="#" class="sub-menu-toggle">Hợp tác cùng Grab<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/merchant/food/">GrabFood</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children menu-item-drive level-one-child">
+                                    <a href="#" class="sub-menu-toggle">Doanh nghiệp / Công ty<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul id="sub-menu-drive" class="sub-menu list-unstyled">
+                                        <li><a href="/vn/business/">Grab for Business</a></li>
+                                        <li><a href="/vn/business/ads/">GrabAds</a></li>
+                                        <li><a href="/vn/business/gifts/">GrabGifts</a></li>
+                                        <li><a href="/vn/business/partnerships/">Partnerships </a></li>
+                                        <li><a href="/vn/business/portal/">Cổng thông tin</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="navbar-brand text-hide bg-size-cover grab-logo" href="https://www.grab.com/vn">Grab Singapore</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /#top -->
+
+        <div class="wrapper">
+            <main role="main">
+                <section id="section-carousel-homepage-carousel" class="section section-carousel section--dark">
+                    <div class="carousel slide" data-ride="carousel" id="carousel-homepage-carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#carousel-homepage-carousel"></li>
+                            <li data-slide-to="1" data-target="#carousel-homepage-carousel"></li>
+                            <li data-slide-to="2" data-target="#carousel-homepage-carousel"></li>
+                            <li data-slide-to="3" data-target="#carousel-homepage-carousel"></li>
+                            <li data-slide-to="4" data-target="#carousel-homepage-carousel"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="bg-size-cover item active" style="background-image: url(images/grab_safety_headerimage.png);">
+                                <div class="carousel-caption">
+                                    <h1>Nỗ lực để mang đến CUỘC SỐNG AN TOÀN HƠN MỖI NGÀY</h1>
+                                    <p></p>
+                                    <a class="btn btn-lg btn-green text-caps weight-bold" href="#">Tìm hiểu thêm</a>                                              
+                                </div>
+                            </div>
+                            <div class="bg-size-cover item" style="background-image: url(images/01_hero_banner.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabTaxi. GrabCar. GrabBike. GrabExpress.</h1>
+                                    <p>Trên cùng một ứng dụng.</p>
+                                    <a class="btn btn-lg btn-green text-caps weight-bold" href="#">TẢI NGAY!</a>                                                
+                                </div>
+                            </div>
+                            <div class="bg-size-cover item" style="background-image: url(images/GrabFood-EX-Desktop-HeaderImageV1-Homepage.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabFood</h1>
+                                    <p>Thèm là có. Nhanh khỏi lo.</p>
+                                    <a class="btn btn-lg btn-green text-caps weight-bold" href="#">Tìm hiểu thêm</a>                                                
+                                </div>
+                            </div>
+                            <div class="bg-size-cover item" style="background-image: url(images/driver.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>TĂNG THU NHẬP. THÊM KẾT NỐI.</h1>
+                                    <p>Trở thành đối tác của Grab để làm chủ cuộc sống của mình tốt hơn.</p>
+                                    <a class="btn btn-lg btn-green text-caps weight-bold" href="#">Đăng ký ngay </a>                                               
+                                </div>
+                            </div>
+                            <div class="bg-size-cover item" style="background-image: url(images/02_hero_banner.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>Hơn 11 triệu người dùng. 200 nghìn tài xế. Đã thoải mái khi di chuyển.</h1>
+                                    <p></p>
+                                    <a class="btn btn-lg btn-green text-caps weight-bold" href="#">TÌM HIỂU THÊM </a>                                              
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /carousel-inner -->
+                    </div>
+                </section>
+                <!-- /#section-carousel -->
+                <section  id="section-guide-how-it-works-grabtaxi" class="section section--light section-guide" style="padding-top: 50px;padding-bottom: 0px;">
+                    <div class="container">
+                        <header>
+                            <h2>Những tính năng nổi bật của Grab?</h2>
+                            <p>Dễ dàng đi mọi nơi cùng Grab</p>
+                        </header>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                                <div class="carousel carousel--mobileview carousel-fade slide clearfix" data-ride="carousel" id="carousel--mobileview--how-it-works-grabtaxi">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators steps--4 clearfix">
+                                        <li class="active" data-slide-to="0" data-target="#carousel--mobileview--how-it-works-grabtaxi" data-step="1">
+                                            <h4>Đặt xe chỉ với 2 thao tác đơn giản</h4>
+                                            <p>Đừng quên chọn điểm đến của bạn để nhận thông báo ước lượng về giá cước cho chuyến đi.</p>
+                                        </li>
+                                        <li data-slide-to="1" data-target="#carousel--mobileview--how-it-works-grabtaxi" data-step="2">
+                                            <h4>Tài xế đón liền tay!</h4>
+                                            <p>Grab sẽ giúp bạn tìm tài xế (có xe trống) gần nhất.</p>
+                                        </li>
+                                        <li data-slide-to="2" data-target="#carousel--mobileview--how-it-works-grabtaxi" data-step="3">
+                                            <h4>Dõi theo tài xế</h4>
+                                            <p>Bạn có thể dõi theo di chuyển của tài xế và biết trước thời điểm bạn sẽ được ngồi lên xe!</p>
+                                        </li>
+                                        <li data-slide-to="3" data-target="#carousel--mobileview--how-it-works-grabtaxi" data-step="4">
+                                            <h4>Kết thúc hành trình an toàn mỹ mãn</h4>
+                                            <p>Bạn thậm chí còn có thể chia sẻ hành trình của mình với người thân để thêm phần an tâm trong chuyến đi nha!</p>
+                                        </li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-description visible-xs"></div>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/1_step-1.jpg" />
+                                        </div>
+                                        <!-- /item -->
+                                        <div class="item">
+                                            <img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/2_step-1.jpg" />
+                                        </div>
+                                        <!-- /item -->
+                                        <div class="item">
+                                            <img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/3_step-1.jpg" />
+                                        </div>
+                                        <!-- /item -->
+                                        <div class="item">
+                                            <img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/4_step-1.jpg" />
+                                        </div>
+                                        <!-- /item -->
+                                    </div>
+                                    <!-- /carousel-inner -->
+                                    <div class="carousel-bg"></div>
+                                </div>
+                                <!-- /carousel -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /#section-guide-how-it-works-grabtaxi -->
+                <section id="section-raw-html-encoded-user-education-body" class="section section--light section-raw-html-encoded bg-size-cover" style="background-image: url(images/dg-dl-grab-back.jpg); padding-top: 0px;padding-bottom: 0px;">
+                    <header></header>
+                    <div class="container-fluid">
+                        <style>
+                            .step1 .fluid-container {padding-top:90px; padding-bottom:85px}
+                            .step1 h2 {font-weight: 600; font-size: 2.571em; color: #fff; text-align: center; width:100%; max-width:620px;margin-left:auto; margin-right:auto; margin-bottom:50px; padding-left:15px; padding-right:15px;}
+                            .step1 .btn {background-color:#fff; color:#06b7a4; text-transform:uppercase; border-radius: 0; box-shadow: none; padding: 16px 20px 15px; font-size: 1.35em; line-height: 1;}
+                        </style>
+                        <div class="step1">
+                            <div class="row">
+                                <div class="fluid-container text-center" style="background-color:#06b7a4">
+                                    <h2>Những điều bạn cần biết cho chuyến Grab đầu tiên</h2>
+                                    <a href="https://www.grab.com/vn/rideguide/" class="btn btnNext">TÌM HIỂU THÊM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /#section-raw-html-encoded-user-education-body -->
+                <section id="section-carousel-tooltip-homepage-services" class="section section-carousel-tooltip section--dark">
+                    <header>
+                        <h2>TỰ DO LỰA CHỌN</h2>
+                        <p>Grab mang đến những dịch vụ vận chuyển tối ưu cho mọi nhu cầu di chuyển của bạn</p>
+                    </header>
+                    <div class="carousel carousel-tooltip carousel-fade slide" data-ride="carousel" id="carousel-homepage-services">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#carousel-homepage-services"><i class="icon icon--hover icon--service--taxi"></i></li>
+                            <li data-slide-to="1" data-target="#carousel-homepage-services"><i class="icon icon--hover icon--service--car"></i></li>
+                            <li data-slide-to="2" data-target="#carousel-homepage-services"><i class="icon icon--hover icon--service--bike"></i></li>
+                            <li data-slide-to="3" data-target="#carousel-homepage-services"><i class="icon icon--hover icon--service--express"></i></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item item-1 bg-size-cover active" style="background-image: url(images/taxi-2-2.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabTaxi</h1>
+                                    <p>Dịch vụ đi lại sử dụng xe taxi của các hãng uy tín, báo trước ước lượng giá cước và nắm rõ thông tin tài xế. Di chuyển bằng taxi an tâm và thoải mái hơn bao giờ!</p>
+                                    <a href="#"><span></span></a>
+                                </div>
+                            </div>
+                            <div class="item item-2 bg-size-cover" style="background-image: url(images/car-2-2.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabCar</h1>
+                                    <p>An toàn, thuận tiện, sang trọng và thoải mái, GrabCar đồng hành với thế hệ những người tự tin làm chủ cuộc sống, bắt đầu từ cách di chuyển!</p>
+                                    <a href="#"><span></span></a>
+                                </div>
+                            </div>
+                            <div class="item item-3 bg-size-cover" style="background-image: url(images/bike-2-2.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabBike</h1>
+                                    <p>Chiếc xe ôm quen thuộc giờ khoác lên mình chiếc áo mới, hiện đại và đáng tin cậy. GrabBike là dịch vụ đi lại năng động và thú vị nhất!</p>
+                                    <a href="#"><span></span></a>
+                                </div>
+                            </div>
+                            <div class="item item-4 bg-size-cover" style="background-image: url(images/express-2-2.jpg);">
+                                <div class="carousel-caption">
+                                    <h1>GrabExpress</h1>
+                                    <p>Giúp bạn chuyển hàng tới bất cứ đâu trong thành phố ngay lập tức: nhận tận tay và trao tận cửa! Hiện đại, nhanh nhẹn và đầy tin cậy!</p>
+                                    <a href="#"><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /#section-carousel-tooltip-homepage-services -->
+                <section id="section-download-download-app" class="section section--padded section--dark section-download bg-size-cover" style="background-image: url(images/dg-dl-grab-back.jpg);">
+                    <div class="container">
+                        <header><h2>Tải ứng dụng Grab</h2></header>
+                        <div class="dl--well clearfix center-block">
+                            <div class="dl--qr-code">
+                                <span class="weight-bold block bottom-margin-sm">Quét mã QR</span>
+                                <img class="img-responsive img--qr-code" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/pax_vn.jpg">
+                            </div>
+                            <div class="dl--stores">
+                                <a class="bottom-margin-sm" href="https://app.appsflyer.com/id647268330?pid=VN-Website-IOS-Install_Button&c=Website_Download" onclick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank"><img class="img-responsive" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/app-store.png"></a>
+                                <a class="bottom-margin-sm" href="https://app.appsflyer.com/com.grabtaxi.passenger?pid=VN-Website-ADR-Install_Button&c=Website_Download" onclick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank"><img class="img-responsive" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/google-play.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /#section-download-download-app -->
+                <section id="section-latest-news" class="section section-grid-news section--light section--padded">
+                    <div class="container">
+                        <header>
+                            <h2>TIN TỨC MỚI NHẤT</h2>
+                            <p>Khám phá thế giới của Grab tại đây</p>
+                        </header>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-8 latest">
+                                <div class="box bg-size-cover bottom-margin-md" style="background-image:url(images/1.jpeg);">
+                                    <div class="blurb">
+                                        <span class="date block">August 28, 2019</span>
+                                        <span class="weight-bold">Sovico Group và Grab ký kết thỏa thuận hợp tác chiến lược toàn diện</span>
+                                    </div>
+                                    <div class="excerpt">
+                                        <div class="centered-wrapper">
+                                            <div class="centered">
+                                                <li><em>Tăng cường tích hợp số trong các lĩnh vực công nghệ di động và logistics.</em></li>
+                                                <li><em>Nâng cao chất lượng dịch vụ cung cấp cho nền tảng khách hàng của hai bên.</em></li>
+                                                <a rel="bookmark" href="#" title="Sovico Group và Grab ký kết thỏa thuận hợp tác chiến lược toàn diện">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /box -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="box bg-size-cover bottom-margin-md" style="background-image:url(images/Business.jpg);">
+                                    <div class="blurb">
+                                        <span class="date block"></span>
+                                        <span class="weight-bold">Grab sẽ đầu tư thêm 500 triệu USD vào Việt Nam để thúc đẩy phát triển nền kinh tế số</span>
+                                    </div>
+                                    <div class="excerpt">
+                                        <div class="centered-wrapper">
+                                            <div class="centered">
+                                                <li><em>Grab sẽ đầu tư thêm 500 triệu USD vào Việt Nam trong 5 năm tới để phát triển các giải pháp công nghệ tài chính (fintech), công nghệ di động mới (mobility) và logistics. Khoản đầu tư này tiếp nối sự tăng trưởng mạnh mẽ của Grab trong nửa đầu năm 2019 trên cả ba lĩnh vực kết nối di chuyển, giao nhận thức ăn và thanh toán điện tử.</em></li>
+                                                <li><em>Grab công bố lộ trình thực hiện sứ mệnh Công nghệ vì cộng đồng (Tech For Good) với mong muốn góp phần giảm nghèo cho các cộng đồng dân cư, xây dựng lực lượng lao động có kỹ năng và tạo lập một môi trường bền vững cho tương lai.</em></li>
+                                                <a rel="bookmark" href="#" title="Grab sẽ đầu tư thêm 500 triệu USD vào Việt Nam để thúc đẩy phát triển nền kinh tế số">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /box -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="box bg-size-cover bottom-margin-md" style="background-image:url(images/A1.jpg);">
+                                    <div class="blurb">
+                                        <span class="date block">August 7, 2019</span>
+                                        <span class="weight-bold">Vietjet, Swift247 và Grab hợp tác toàn diện nhằm phát triển các giải pháp kết nối di chuyển và giao nhận</span>
+                                    </div>
+                                    <div class="excerpt">
+                                        <div class="centered-wrapper">
+                                            <div class="centered">
+                                                <li><em>Quan hệ hợp tác toàn diện nhằm phát triển các giải pháp kết nối di chuyển bằng đường bộ và đường hàng không cho khách hàng trên toàn khu vực Đông Nam Á</em></li>
+                                                <li><em>Cung cấp dịch vụ giao hàng hỏa tốc giữa Hà Nội &#8211; Thành phố Hồ Chí Minh chỉ từ 5 tiếng</em></li>
+                                                <a rel="bookmark" href="#" title="Vietjet, Swift247 và Grab hợp tác toàn diện nhằm phát triển các giải pháp kết nối di chuyển và giao nhận">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /box -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="box bg-size-cover bottom-margin-md" style="background-image:url(images/IN-APP_1240X660PX-02.jpg);">
+                                    <div class="blurb">
+                                        <span class="date block">May 30, 2019</span>
+                                        <span class="weight-bold">Grab và Quỹ Bảo trợ Trẻ em Việt Nam cùng chung tay xây cầu đến lớp cho trẻ em</span>
+                                    </div>
+                                    <div class="excerpt">
+                                        <div class="centered-wrapper">
+                                            <div class="centered">
+                                                <li><em>Grab và Quỹ Bảo trợ trẻ em Việt Nam ký kết Biên bản ghi nhớ kéo dài 3 năm với mục tiêu phát triển điều kiện cơ sở vật chất, giao thông đi lại và tiếp cận văn hóa cho trẻ em các vùng khó khăn.</em></li>
+                                                <li><em>Trong năm đầu tiên hợp tác, hai bên dự kiến xây dựng 5 cây cầu giúp trẻ em vùng khó khăn có cơ hội đến lớp an toàn, nhất là trong mùa mưa, lũ.</em></li>
+                                                <li><em>Grab tiếp tục cam kết gắn bó lâu dài với Việt Nam và thực hiện trách nhiệm xã hội của doanh nghiệp nhằm mang đến những đóng góp thiết thực cho cộng đồng theo sứ mệnh #CongNgheViCongDong (#TechforGood).</em></li>
+                                                <a rel="bookmark" href="#" title="Grab và Quỹ Bảo trợ Trẻ em Việt Nam cùng chung tay xây cầu đến lớp cho trẻ em">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /box -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="box bg-size-cover bottom-margin-md" style="background-image:url(images/Birthday.jpg);">
+                                    <div class="blurb">
+                                        <span class="date block">May 23, 2019</span>
+                                        <span class="weight-bold">GrabFood tăng trưởng gấp 250 lần sau một năm ra mắt, trở thành dịch vụ giao nhận thức ăn tăng trưởng nhanh nhất Việt Nam</span>
+                                    </div>
+                                    <div class="excerpt">
+                                        <div class="centered-wrapper">
+                                            <div class="centered">
+                                                <li><em>Dịch vụ giao nhận thức ăn GrabFood chứng kiến số lượng đơn hàng bình quân hằng ngày tăng trưởng ấn tượng, gấp 250 lần sau một năm kể từ khi chính thức ra mắt tại Việt Nam.</em></li>
+                                                <li><em>81% người dùng tại Việt Nam chọn GrabFood là dịch vụ giao nhận thức ăn được sử dụng thường xuyên nhất, theo một báo cáo gần đây của Kantar.</em></li>
+                                                <li><em>GrabFood đặt mục tiêu trở thành chuyên gia trong ngành ẩm thực, cam kết mang đến những lợi ích tốt nhất cho tất cả các bên tham gia vào nền tảng.</em></li>
+                                                <a rel="bookmark" href="#" title="GrabFood tăng trưởng gấp 250 lần sau một năm ra mắt, trở thành dịch vụ giao nhận thức ăn tăng trưởng nhanh nhất Việt Nam">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /box -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-5">
+                                <a href="#" class="btn btn-block btn-primary weight-bold">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /#section-latest-news -->
+            </main>
+            <!-- /#main -->
+
+            <section class="sitemap nav-sitemap">
+                <div class="container">
+                    <div class="row">
+                        <div id="nav-footer" class="footer-secTop">
+                            <div class="col-sm-12 col-md-3">
+                                <div class="footer-about-grab">
+                                    <div class="bottom-margin-md div-logo">
+                                        <a class="navbar-brand text-hide bg-size-cover grab-logo" href="https://www.grab.com/vn">Grab Việt Nam</a>
+                                    </div>
+                                    <div class="grab-infor">
+                                        <h4>Forward Together</h4>
+                                        <p>Công Ty TNHH Grab - 268 Tô Hiến Thành, P.15, Q.10, TP Hồ Chí Minh<br />
+                                            Mã số doanh nghiệp: 0312650437<br />
+                                            Đại Diện Công Ty: Lim Yen Hock<br />
+                                            Chức vụ: Giám Đốc
+                                        </p>
+                                    </div>
+                                    <div class="grab-contact top-margin-md">
+                                        <h4>Follow us and keep updated!</h4>
+                                        <a target="_blank" href="https://www.facebook.com/GrabVN/"><i class="fa fa-facebook"></i></a><a target="_blank" href="https://www.instagram.com/grabvn/"><i class="fa fa-instagram"></i></a><a target="_blank" href="https://twitter.com/grabvn"><i class="fa fa-twitter"></i></a>                          
+                                    </div>
+                                    <div class="country-selector">
+                                        <div class="dropup list-countries">
+                                            <a class="dropdown-toggle vn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="flag"></span> Việt Nam <i class="fa fa-angle-up"></i>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a href="https://www.grab.com/sg" class="sg">
+                                                <span class="flag"></span>
+                                                Singapore</a>
+                                                <a href="https://www.grab.com/my" class="my">
+                                                <span class="flag"></span>
+                                                Malaysia</a>
+                                                <a href="https://www.grab.com/id" class="id">
+                                                <span class="flag"></span>
+                                                Indonesia</a>
+                                                <a href="https://www.grab.com/th" class="th">
+                                                <span class="flag"></span>
+                                                Thailand</a>
+                                                <a href="https://www.grab.com/vn" class="vn">
+                                                <span class="flag"></span>
+                                                Vietnam</a>
+                                                <a href="https://www.grab.com/ph" class="ph">
+                                                <span class="flag"></span>
+                                                Philippines</a>
+                                                <a href="https://www.grab.com/mm" class="mm">
+                                                <span class="flag"></span>
+                                                Myanmar</a>
+                                                <a href="https://www.grab.com/kh" class="kh">
+                                                <span class="flag"></span>
+                                                Cambodia</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /footer-about-grab-->
+                            </div>
+                            <!-- /col-sm-12 col-md-3-->
+                            <div class="col-sm-12 col-md-9 hidden-xs">
+                                <div class="row sitemap-container">
+                                    <div class="col-sm-4 col-md-2 first-col">
+                                        <h4 class="text-caps"><a href="https://help.grab.com/passenger/en-vn/">Trung tâm Hỗ trợ</a></h4>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2">
+                                        <h4 class="text-caps">Về Grab</h4>
+                                        <ul class="sitemapList">
+                                            <li><a href="/vn/brand-story/">Câu chuyện của Grab</a></li>
+                                            <li><a href="/vn/locations/">Địa chỉ</a></li>
+                                            <li><a href="/vn/safety/">Tin tưởng & An toàn</a></li>
+                                            <li><a href="/vn/press/">Tin tức</a></li>
+                                            <li><a href="https://grab.careers/">Làm việc tại Grab</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2">
+                                        <h4 class="text-caps">Người dùng</h4>
+                                        <ul class="sitemapList">
+                                            <li><a href="/vn/blog/">Có gì mới?</a></li>
+                                            <li><a href="/vn/transport/">Di chuyển</a></li>
+                                            <li><a href="/vn/pay/">Ví điện tử Moca trên ứng dụng Grab</a></li>
+                                            <li><a href="/vn/food/">GrabFood</a></li>
+                                            <li><a href="/vn/express/">GrabExpress</a></li>
+                                            <li><a href="/vn/rewards/">GrabRewards</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2">
+                                        <h4 class="text-caps">Đối tác tài xế</h4>
+                                        <ul class="sitemapList">
+                                            <li><a href="/vn/blog/driver/">Thông tin mới nhất</a></li>
+                                            <li><a href="/vn/driver/transport/">Di chuyển</a></li>
+                                            <li><a href="/vn/driver/food/">GrabFood</a></li>
+                                            <li><a href="/vn/driver/transport/bike/">GrabExpress</a></li>
+                                            <li><a href="/vn/driver/centre/">Trung tâm tài xế</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2">
+                                        <h4 class="text-caps">Hợp tác cùng Grab</h4>
+                                        <ul class="sitemapList">
+                                            <li><a href="/vn/merchant/food/">GrabFood</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-2">
+                                        <h4 class="text-caps">Doanh nghiệp / Công ty</h4>
+                                        <ul class="sitemapList">
+                                            <li><a href="/vn/business/">Grab for Business</a></li>
+                                            <li><a href="/vn/business/ads/">GrabAds</a></li>
+                                            <li><a href="/vn/business/gifts/">GrabGifts</a></li>
+                                            <li><a href="/vn/business/partnerships/">Partnerships </a></li>
+                                            <li><a href="/vn/business/portal/">Cổng thông tin</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /row sitemap-container -->
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <div class="row">
+                                <div class="col-md-9 top-margin-md">
+                                    <p style="margin-left: 1em; margin-right: 1em;">Dịch vụ trung gian thanh toán do Công ty Cổ phần Công nghệ và Dịch Vụ Moca cung cấp. Mã số doanh nghiệp: 0106254974</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <div style="float: right;">
+                                        <a href="http://online.gov.vn/HomePage/AppDisplay.aspx?DocId=81" target="_blank"><img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/08/20150827110756-dadangky.png" style="max-width: 150px;" class="center-block"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /sitemap -->
+
+            <footer>
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <ul class="policylist">
+                                <li><a href="https://www.grab.com/vn/terms/" >Quy chế hoạt động và Điều khoản sử dụng</a></li>
+                                <li><a href="https://www.grab.com/vn/privacy/" >Chính sách bảo mật</a></li>
+                            </ul>
+                        </div>
+                        <!-- /col-xs-12 col-md-4 -->
+                        <div class="col-xs-12 col-md-4">
+                            <p class="copyright">&copy; Grab 2019</p>
+                        </div>
+                        <div class="col-xs-12 col-md-4 hidden-xs">
+                            <ul class="playstore">
+                                <li><a onClick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank" href="https://app.appsflyer.com/id647268330?pid=VN-Website-IOS-Install_Button&c=Website_Download" ><img src="https://www.grab.com/vn/wp-content/uploads/media/images/footer/app-store.png" class="img-responsive" /></a></li>
+                                <li><a onClick="ga('send', { hitType: 'event', eventCategory: 'Website', eventAction: 'Download',  eventLabel: 'Web'});" target="_blank" href="https://app.appsflyer.com/com.grabtaxi.passenger?pid=VN-Website-ADR-Install_Button&c=Website_Download" ><img src="https://www.grab.com/vn/wp-content/uploads/media/images/footer/google-play.png" class="img-responsive" /></a></li>
+                            </ul>
+                        </div>
+                        <!-- /col-xs-12 col-md-4 -->
+                    </div>
+                    <!-- /row-->
+                </div>
+                <!-- /container -->
+            </footer>
+            <!-- /footer -->
+        </div>
+        <!-- /#wrapper -->
+        
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
+        <script type='text/javascript' src='lib/swiper/swiper.jquery.min.js'></script>
+        <script type='text/javascript' src='js/scripts.js'></script>
+    </body>
+</html>
