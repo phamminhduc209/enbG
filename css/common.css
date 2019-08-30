@@ -14367,7 +14367,7 @@ Navigation
 @media only screen and (min-width: 768px) {
 	#top {border-bottom: solid 1px #ddd;}
 	#top .navbar-default {min-height: 60px}
-	#top .navbar-brand {margin-top: 7px;margin-right: 15px;width: 91px; height: 35px;}
+	#top .navbar-brand {margin-top: 7px;margin-right: 15px;width: 83px; height: auto;}
 	
 	.dropdown-submenu {position: relative}
 	.dropdown-submenu .caret {display: none}
@@ -15688,7 +15688,7 @@ Created by Johnny 3/5/2017
 /** Nav-bar **/
 /*.wrapper { margin-top: 68px;}*/
 
-#top #main-menu .navbar-brand{background-image: url(../images/grab_logo_158.png);}
+#top #main-menu .navbar-brand{background-image: url(../images/logo.png);}
 
 #main-menu .dropdown-menu { min-width: 200px;}
 #main-menu .dropdown-menu.columns-2,
@@ -15890,7 +15890,7 @@ html:lang(en-US) #secondary-menu a{font-family: 'Sanomat Grab Web Medium', sans-
     top: 14px;
 }
 
-#top #mobile-menu .navbar-brand{background-image: url(../images/grab_logo_158.png);}
+#top #mobile-menu .navbar-brand{background-image: url(../images/logo.png);}
 
 #mobile-menu{ margin-bottom: 0; height: 50px; padding-top: 8px;}
 #mobile-menu > .menu-item-drive{ height: 42px; display: block;}
