@@ -8994,9 +8994,6 @@ Article Content
 Navigation
 ========================================================================== */
 
-.wrapper {
-}
-
 @media only screen and (max-width: 767px) {
 	.wrapper {
 		/* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
@@ -9039,7 +9036,7 @@ Navigation
 }
 #top:hover {background: rgba(255,255,255,1);}
 /* since top nav is fixed */
-.wrapper{ margin-top: 62px; }
+.wrapper{ margin-top: 67px; }
 
 @media only screen and (max-width: 767px) {
 	#top.lateral-menu-is-open {
@@ -14250,9 +14247,6 @@ Article Content
 Navigation
 ========================================================================== */
 
-.wrapper {
-}
-
 @media only screen and (max-width: 767px) {
 	.wrapper {
 		/* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
@@ -16018,6 +16012,21 @@ html:lang(en-US) #mobile-menu .main-dropdown{font-family: 'Sanomat Grab Web Medi
 @media only screen and (max-width: 767px){
 	/*.wrapper { margin-top: 50px; }*/
 	#top #mobile-menu .navbar-brand{margin-left: 10px;}
+	#mobile-menu {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#top #mobile-menu .navbar-brand {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+	#mobile-menu > .menu-item-drive {
+		position: absolute;
+		left: 15px;
+	}
 }
 /** end of nav-bar **/
 
