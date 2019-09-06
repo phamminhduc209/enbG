@@ -16027,6 +16027,7 @@ html:lang(en-US) #mobile-menu .main-dropdown{font-family: 'Sanomat Grab Web Medi
 		position: absolute;
 		left: 15px;
 	}
+	.wrapper { margin-top: 50px; }
 }
 /** end of nav-bar **/
 
